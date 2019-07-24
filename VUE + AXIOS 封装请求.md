@@ -2,8 +2,8 @@
 ```bash
 npm install --save
 ```
-## 二、创建axios.js
-<p>`axios.js` 文件封装方法是为了让业务调用方可以更少的操作 axios 的 api ，甚至不需要了解 axios 的工作原理，直接使用封装的方法即可，这样可以形成一套统一的请求规范（如： 想要post请求就直接this.$http.post(url, params)，想要 get 请求就调用this.$http.get(url, params)…）</p>
+## 二、创建 axios.js
+<p>axios.js 文件封装方法是为了让业务调用方可以更少的操作 axios 的 api ，甚至不需要了解 axios 的工作原理，直接使用封装的方法即可，这样可以形成一套统一的请求规范（如： 想要post请求就直接this.$http.post(url, params)，想要 get 请求就调用this.$http.get(url, params)…）</p>
 
 ```js
 // axios.js
